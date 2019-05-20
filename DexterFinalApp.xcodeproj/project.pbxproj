@@ -14,6 +14,9 @@
 		343FE443228C886A0021FE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343FE441228C886A0021FE1C /* LaunchScreen.storyboard */; };
 		343FE44E228C886A0021FE1C /* DexterFinalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343FE44D228C886A0021FE1C /* DexterFinalAppTests.swift */; };
 		343FE459228C886A0021FE1C /* DexterFinalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343FE458228C886A0021FE1C /* DexterFinalAppUITests.swift */; };
+		34D1580822931F65006FA2B5 /* OrgsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1580722931F65006FA2B5 /* OrgsTableViewController.swift */; };
+		34D1580A22931F71006FA2B5 /* CompaniesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1580922931F71006FA2B5 /* CompaniesTableViewController.swift */; };
+		34D1580C22931FB7006FA2B5 /* YouTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D1580B22931FB7006FA2B5 /* YouTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		343FE454228C886A0021FE1C /* DexterFinalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DexterFinalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		343FE458228C886A0021FE1C /* DexterFinalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexterFinalAppUITests.swift; sourceTree = "<group>"; };
 		343FE45A228C886A0021FE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D1580722931F65006FA2B5 /* OrgsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgsTableViewController.swift; sourceTree = "<group>"; };
+		34D1580922931F71006FA2B5 /* CompaniesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesTableViewController.swift; sourceTree = "<group>"; };
+		34D1580B22931FB7006FA2B5 /* YouTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				343FE438228C88680021FE1C /* AppDelegate.swift */,
 				343FE43A228C88680021FE1C /* ViewController.swift */,
 				343FE43C228C88680021FE1C /* Main.storyboard */,
+				34D1580B22931FB7006FA2B5 /* YouTableViewController.swift */,
+				34D1580922931F71006FA2B5 /* CompaniesTableViewController.swift */,
+				34D1580722931F65006FA2B5 /* OrgsTableViewController.swift */,
 				343FE43F228C886A0021FE1C /* Assets.xcassets */,
 				343FE441228C886A0021FE1C /* LaunchScreen.storyboard */,
 				343FE444228C886A0021FE1C /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D1580822931F65006FA2B5 /* OrgsTableViewController.swift in Sources */,
 				343FE43B228C88680021FE1C /* ViewController.swift in Sources */,
 				343FE439228C88680021FE1C /* AppDelegate.swift in Sources */,
+				34D1580A22931F71006FA2B5 /* CompaniesTableViewController.swift in Sources */,
+				34D1580C22931FB7006FA2B5 /* YouTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
