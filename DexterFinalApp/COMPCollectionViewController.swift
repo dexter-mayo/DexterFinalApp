@@ -20,7 +20,8 @@ class COMPCollectionViewController: UICollectionViewController {
         let reformation = CInfo(
             name: "Reformation",
             product: "Women's Clothing",
-            text: "Reformation has been a completely carbon-neutral clothing company since 2-15. They publish their water usage, carbon emissions and waste from the production and specify online for each piece of clothing. They are also paper-free, giving only email receipts, canvas bags, and non-paper tags."
+            text: "Reformation has been a completely carbon-neutral clothing company since 2-15. They publish their water usage, carbon emissions and waste from the production and specify online for each piece of clothing. They are also paper-free, giving only email receipts, canvas bags, and non-paper tags.",
+            photo: "money"
         )
         companies.append(reformation)
         
@@ -69,9 +70,14 @@ class COMPCollectionViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
         
-        
+        let imageview:UIImageView=UIImageView(frame: CGRect(50, 0, self.view.frame.width-200, 50))
+        let image:UIImage = UIImage(named:"money")!
+        imageview.image = image
+        cell.contentView.addSubview(imageview)
+
+
         return cell
     }
 

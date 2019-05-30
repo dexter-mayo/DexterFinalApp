@@ -11,4 +11,5 @@ struct CInfo {
     var name: String
     var product: String
     var text: String
+    var photo: String
 }
