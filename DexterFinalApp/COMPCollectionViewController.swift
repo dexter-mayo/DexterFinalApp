@@ -25,17 +25,6 @@ class COMPCollectionViewController: UICollectionViewController {
         )
         companies.append(reformation)
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -71,11 +60,11 @@ class COMPCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        
-        let imageview:UIImageView=UIImageView(frame: CGRect(50, 0, self.view.frame.width-200, 50))
-        let image:UIImage = UIImage(named:"money")!
-        imageview.image = image
-        cell.contentView.addSubview(imageview)
+
+//        let imageview:UIImageView=UIImageView(frame: CGRect(50, 0, self.view.frame.width-200, 50))
+//        let image:UIImage = UIImage(named:"money")!
+//        imageview.image = image
+//        cell.contentView.addSubview(imageview)
 
 
         return cell
