@@ -275,7 +275,7 @@ class BODYTableViewController: UITableViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var newVC = segue.destination as! ViewController
+        var newVC = segue.destination as! ViewController2
         var selectedItem = self.tableView.indexPathForSelectedRow?.row
         var obj:bodyInfo = body[selectedItem!]
         

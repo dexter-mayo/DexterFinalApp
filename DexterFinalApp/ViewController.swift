@@ -11,8 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var product:productInfo?
-    var body2:bodyInfo?
-
+    
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var text: UITextView!
