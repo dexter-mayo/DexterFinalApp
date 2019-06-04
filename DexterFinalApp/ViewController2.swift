@@ -19,7 +19,9 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.label2.text = body2?.name
+        self.text2.text = body2?.text
+        
     }
     
 

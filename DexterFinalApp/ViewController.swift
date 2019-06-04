@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.label.text = product?.name
-//        self.text.text = product?.text
+        self.label.text = product?.name
+        self.text.text = product?.text
 //        self.image.image = UIImage.init(named: (product?.pic)!)
         
         
