@@ -61,10 +61,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5K-No-rlf">
-                                <rect key="frame" x="16" y="100" width="343" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9G-Et-1zc">
+                                <rect key="frame" x="30" y="432" width="315" height="87"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="87" id="IJe-Pb-jeT"/>
+                                    <constraint firstAttribute="height" constant="87" id="SO3-v6-bxi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="Clean Comapanies">
+                                    <color key="titleColor" red="0.64398676160000001" green="0.84010428189999997" blue="0.76862096790000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i7X-hO-U9P" kind="show" id="iVB-tc-qZ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5K-No-rlf">
+                                <rect key="frame" x="16" y="152" width="343" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="Iq5-fT-Dza"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <state key="normal" title="What You Can Do">
@@ -74,25 +87,14 @@
                                     <segue destination="ZpU-Se-5ei" kind="show" id="0XW-4V-bkU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9G-Et-1zc">
-                                <rect key="frame" x="30" y="266" width="315" height="87"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                <state key="normal" title="Clean Comapanies">
-                                    <color key="titleColor" red="0.64398676160000001" green="0.84010428189999997" blue="0.76862096790000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <segue destination="i7X-hO-U9P" kind="show" id="iVB-tc-qZ2"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="c5K-No-rlf" firstAttribute="leading" secondItem="ME1-WF-rJZ" secondAttribute="leadingMargin" id="7Tz-G8-bZa"/>
-                            <constraint firstItem="Z9G-Et-1zc" firstAttribute="top" secondItem="c5K-No-rlf" secondAttribute="bottom" constant="79" id="FOw-cV-RCq"/>
-                            <constraint firstItem="yg9-hL-NUB" firstAttribute="bottom" secondItem="Z9G-Et-1zc" secondAttribute="bottom" constant="314" id="Ur3-og-mqK"/>
-                            <constraint firstItem="c5K-No-rlf" firstAttribute="trailing" secondItem="ME1-WF-rJZ" secondAttribute="trailingMargin" id="s9M-LF-5Fa"/>
-                            <constraint firstItem="c5K-No-rlf" firstAttribute="top" secondItem="yg9-hL-NUB" secondAttribute="top" constant="36" id="tbU-Cm-g6b"/>
-                            <constraint firstItem="c5K-No-rlf" firstAttribute="centerX" secondItem="Z9G-Et-1zc" secondAttribute="centerX" id="yVy-ef-iZl"/>
+                            <constraint firstItem="yg9-hL-NUB" firstAttribute="bottom" secondItem="Z9G-Et-1zc" secondAttribute="bottom" constant="148" id="ePO-MB-V8V"/>
+                            <constraint firstItem="c5K-No-rlf" firstAttribute="top" secondItem="yg9-hL-NUB" secondAttribute="top" constant="88" id="hoc-4g-TiV"/>
+                            <constraint firstItem="c5K-No-rlf" firstAttribute="leading" secondItem="ME1-WF-rJZ" secondAttribute="leadingMargin" id="pW5-zx-RPO"/>
+                            <constraint firstItem="c5K-No-rlf" firstAttribute="centerX" secondItem="Z9G-Et-1zc" secondAttribute="centerX" id="zaN-s7-Rp9"/>
+                            <constraint firstItem="c5K-No-rlf" firstAttribute="trailing" secondItem="ME1-WF-rJZ" secondAttribute="trailingMargin" id="zs9-qP-ZLJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yg9-hL-NUB"/>
                     </view>
@@ -480,12 +482,13 @@ Bring your own shopping bags, straws, napkins, and coffee cups when going out in
         <!--View Controller2-->
         <scene sceneID="UYC-Zy-FwJ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EXV-t4-Zlg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="B0f-ug-rBy" customClass="ViewController2" customModule="DexterFinalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MjJ-8S-jX6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4ts-Qr-zqV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4ts-Qr-zqV">
                                 <rect key="frame" x="16" y="64" width="343" height="186"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="186" id="fka-fe-uby"/>
@@ -525,15 +528,11 @@ Bring your own shopping bags, straws, napkins, and coffee cups when going out in
                         <viewLayoutGuide key="safeArea" id="noQ-Iv-UB8"/>
                     </view>
                     <connections>
-                        <outlet property="image" destination="4ts-Qr-zqV" id="c7c-M8-7DP"/>
                         <outlet property="image2" destination="4ts-Qr-zqV" id="TJS-TI-4p5"/>
-                        <outlet property="label" destination="OwG-qr-PHU" id="k35-Vb-QQK"/>
                         <outlet property="label2" destination="OwG-qr-PHU" id="SUN-9t-VMR"/>
-                        <outlet property="text" destination="DKP-FT-ydD" id="e1F-0F-Js1"/>
                         <outlet property="text2" destination="DKP-FT-ydD" id="c92-dv-ent"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EXV-t4-Zlg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5629.6000000000004" y="398.95052473763121"/>
         </scene>
