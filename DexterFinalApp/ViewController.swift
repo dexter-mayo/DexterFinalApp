@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
         self.label.text = product?.name
         self.text.text = product?.text
-//        self.image.image = UIImage.init(named: (product?.pic)!)
+        self.image.image = UIImage.init(named: (product?.pic)!)
         
         
     }

@@ -428,7 +428,7 @@ Bring your own shopping bags, straws, napkins, and coffee cups when going out in
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fwN-nQ-3yB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fwN-nQ-3yB">
                                 <rect key="frame" x="16" y="64" width="343" height="186"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="186" id="OEp-AV-W4B"/>
