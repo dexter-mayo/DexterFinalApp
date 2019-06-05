@@ -21,7 +21,7 @@ class ViewController2: UIViewController {
 
         self.label2.text = body2?.name
         self.text2.text = body2?.text
-//        self.image2.image = UIImage.init(named: (body2?.pic)!)
+        self.image2.image = UIImage.init(named: (body2?.pic)!)
 
         
     }

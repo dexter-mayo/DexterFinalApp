@@ -17,7 +17,7 @@ class CLOTHESTableViewController: UITableViewController {
         
         let aeon = productInfo(
             name: "Aeon Row",
-            text: "These clothes made from recycled yarn, which requires no land, water, chemicals, or cotton dyes to produce. You can also receive 15% off  a purchase for sending in your unwanted clothes for upcycling.",
+            text: "These clothes are made from recycled yarn, which requires no land, water, chemicals, or cotton dyes to produce. You can also receive 15% off a purchase for sending in your unwanted clothes for upcycling.",
             pic: "aeon"
         )
         products.append(aeon)
@@ -25,7 +25,7 @@ class CLOTHESTableViewController: UITableViewController {
         
         let alternative = productInfo(
             name: "Alternative Apparel",
-            text: "All  their  clothes are made with organic cotton, and some even have bits of recycled plastic in them. Only environment safe dyes are used, and all packaging is eco-friendly.",
+            text: "All these clothes are made with organic cotton, and some even have bits of recycled plastic in them. Only environment safe dyes are used, and all packaging is eco-friendly.",
             pic: "alternative"
         )
         products.append(alternative)
@@ -40,7 +40,7 @@ class CLOTHESTableViewController: UITableViewController {
         let boyish = productInfo(
             name: "Boyish Jeans",
             text: "Denim production uses lots of water and can take up to 2,000 gallons of water to grow all of the cotton. Boyish Jeans recycles their water and each pair of jeans uses about 1/3 less water than other companies.",
-            pic: "boyish"
+            pic: "boyish-jeans"
         )
         products.append(boyish)
         
@@ -53,7 +53,7 @@ class CLOTHESTableViewController: UITableViewController {
         
         let girlfriend = productInfo(
             name: "Girlfriend Collective",
-            text: "Girlfriend Collective makes activewear  from women. All of their pieces are made from recycled plastic that they get from Taiwan.",
+            text: "Girlfriend Collective makes activewear for women. All of their pieces are made from recycled plastic that they get from Taiwan.",
             pic: "girlfriend"
         )
         products.append(girlfriend)
@@ -74,7 +74,7 @@ class CLOTHESTableViewController: UITableViewController {
         
         let insecta = productInfo(
             name: "Insecta Shoes",
-            text: "All products are made from recycled rubber and plastic bottles or vintage clothing and vegan leather. All sheos are eco-friendly and vegan.",
+            text: "All products are made from recycled rubber and plastic bottles or vintage clothing and vegan leather. All shoes are eco-friendly and vegan.",
             pic: "insecta"
         )
         products.append(insecta)
@@ -82,7 +82,7 @@ class CLOTHESTableViewController: UITableViewController {
         let miji = productInfo(
             name: "Miomojo",
             text: "Italian-based band Miomojo makes eco-friendly bags of all sizes. They are 100% cruelty free and poison free. There is no PVC or fromaldehyde in their products. No bag has heavy metal in them, and they are made from recycled materials.",
-            pic: "miji"
+            pic: "miomojo"
         )
         products.append(miji)
         
@@ -137,14 +137,14 @@ class CLOTHESTableViewController: UITableViewController {
         
         let united = productInfo(
             name: "United by Blue",
-            text: "This clothing brand pledges to take 1 lb. of trash every time someone buys a piece of their clothing.",
+            text: "This clothing brand pledges to take 1 lb. of trash out of the ocean every time someone buys a piece of their clothing.",
             pic: "united"
         )
         products.append(united)
         
         let wama = productInfo(
             name: "WAMA Underwear",
-            text: "All products made by WAMA have one ingredient: hemp.",
+            text: "All products made by WAMA have one ingredient: hemp. Hemp is 100% biodegradable and the plants take more carbon dioxide from the atmosphere than most other plants.",
             pic: "wama"
         )
         products.append(wama)
@@ -152,8 +152,8 @@ class CLOTHESTableViewController: UITableViewController {
         
         let west = productInfo(
             name: "Westland Jewelry",
-            text: "All Westland jewelry comes from 100 percent recycled metal that comes from old jewelry, electronics or hardware. Westland is 100% vegan and only uses recycled or fair-trade gemstones.",
-            pic: "westland"
+            text: "All Westland jewelry comes from 100% recycled metal that comes from old jewelry, electronics or hardware. Westland is completely vegan and only uses recycled or fair-trade gemstones.",
+            pic: "west"
         )
         products.append(west)
         
